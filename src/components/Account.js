@@ -12,7 +12,7 @@ function Account() {
 
   useEffect(() => {
     axios
-      .get("https://tournament-ten.vercel.app/")
+      .get("http://localhost:8000/data")
       .then((response) => {
         setData(response.data);
       })
